@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TxtQuicksandBold" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/quicksand_bold</item>
+    </style>
+    <style name="TxtAvenirMedium" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/avenir_medium</item>
+    </style>
+    <style name="TxtAvenir" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/avenir_regular</item>
+    </style>
+    <style name="TxtLato" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/lato_regular</item>
+    </style>
+
+    <style name="TxtDefaultText" parent="TxtLato">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+    <style name="TxtDefaultAvenirText" parent="TxtAvenir">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+    <style name="TxtDefaultHeading" parent="TxtQuicksandBold">
+        <item name="android:textSize">36dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorHeading</item>
+    </style>
+    <style name="TxtDefaultSubHeading" parent="TxtAvenirMedium">
+        <item name="android:textSize">24dp</item>
+        <item name="android:textColor">@color/colorSubHeading</item>
+    </style>
+</resources>
